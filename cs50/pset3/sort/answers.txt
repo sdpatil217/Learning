@@ -1,0 +1,18 @@
+sort1 uses: Bubble sort
+
+How do you know?: when program is run with sorted50000.txt it takes significantly less time than when it run with file reversed50000.txt
+                  so in bubble sort big omega is (n) and for worst case big O is (n^2) which indicates the differance in both the cases
+                  and shows it is a bubble sort
+
+sort2 uses: Merge sort
+
+How do you know?: when sort2 code is run with all 3 files of 50000 text its gives almost same time in every condition which
+                  signifies that it is either a merge sort or selection sort as both have equal values for individual big omega
+                  and big O values. but sort2 gives low runtime than programe 3 for bigger set of (n).
+                  Which proves merge sort
+
+sort3 uses: selection sort
+
+How do you know?: as sort3 run with sorted, reversed and random files text it gives almost equal runtime but that runtime is
+                 significantly greater than runtime of sort2 which proves that this is Selection sort which has equal big omega
+                 value and big O value.
